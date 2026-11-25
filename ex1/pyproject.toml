@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "loading-programs"
+version = "0.1.0"
+description = "Matrix loading programs and data analysis tool using Poetry."
+authors = ["Neo <neo@zion.org>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^2.0.0"
+numpy = "^1.20.0"
+matplotlib = "^3.0.0"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
